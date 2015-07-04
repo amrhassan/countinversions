@@ -1,0 +1,4 @@
+[package]
+name = "countinversions"
+version = "0.1.0"
+authors = ["Amr Hassan <amr.hassan@gmail.com>"]
