@@ -15,7 +15,7 @@ fn main() {
         process::exit(1);
     }
 
-    let file_path = Path::new(args[1]);
+    let file_path = Path::new(&args[1]);
     let mut file = File::open(&file_path).unwrap();
 
     let mut file_content = String::new();
